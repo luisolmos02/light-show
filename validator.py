@@ -44,7 +44,7 @@ def validate(file):
     prev_closure_2 = None
     count = 0
 
-    for frame_i in range(frame_count):
+    for frame_i in range(frame_count): 
         lights = file.read(30)
         closures = file.read(16)
         file.seek(2, 1)
